@@ -13,6 +13,7 @@ struct tabelaHs {
 
 typedef struct tabelaHs TabelaHs;
 
+int hash_espalhamento(TabelaHs *tabTermos, char *pt);
 TabelaHs *criar (int tam);
 void inserirTermoTh(TabelaHs *tabTermos, char *ptChave, char *enValor);
 char *buscarTermoTh(TabelaHs *hashtable, char *key);
